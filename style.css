@@ -1,0 +1,183 @@
+#body {
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cabecalho {
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.titulo_Header {
+    font-size: 30px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo_Header:hover {
+    color: goldenrod;
+}
+
+.titulo_Header a {
+    color: black;
+}
+
+.titulo_Header a:hover {
+    color: goldenrod;
+}
+
+.ItensMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.li_ItensMenu {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.li_ItensMenu a {
+    text-decoration: none;
+    color: black;
+}
+
+.li_ItensMenu a:hover {
+    color: goldenrod;
+    text-decoration: underline 1px black;
+}
+
+
+.main {
+    background-color: #EDE4DB;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo_Main {
+    text-align: center;
+    text-decoration: underline goldenrod;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo_Cards {
+    color: black;
+    text-decoration: underline goldenrod;
+}
+
+.card1 {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 0px 5px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+    background-color: #f8f6f4;
+    text-align: center;
+}
+
+.card2 {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 0px 5px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+    background-color: #f8f6f4;
+    text-align: center;
+}
+
+.card3 {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 0px 5px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+    background-color: #f8f6f4;
+    text-align: center;
+}
+
+.mainDois {
+    background-color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.botao {
+    display: inline-block;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 400px;
+    color: red;
+}
+
+.footer {
+    background-color: rgb(243, 243, 243);
+    position: footer;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main_Form {
+    background-color: #EDE4DB;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main_Form h3 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao_Enviar button {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: solid;
+    background-color: goldenrod;
+    border: goldenrod;
+}
+
+.botao_Enviar button:hover {
+    background-color: gold;
+}
+
+.alerta {
+    text-align: center;
+}
+
+.alerta p {
+    text-decoration: solid;
+}
